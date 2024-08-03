@@ -50,6 +50,7 @@ float calculateBatteryPercentage(float voltage) {
   }
   return percentage;
 }
+
 void setup() {
   // Start serial communication
   Serial.begin(115200);
